@@ -2,6 +2,8 @@ from typing import Any
 from pygame import *
 from random import *
 print("Hello World")
+print("Hello World2")
+
 
 window = display.set_mode((700, 500))
 background = transform.scale(image.load('galaxy.jpg'), (700, 500))
