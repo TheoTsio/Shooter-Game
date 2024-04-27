@@ -5,7 +5,7 @@ print("This is the new version")
 print('asd')
 window = display.set_mode((700, 500))
 background = transform.scale(image.load('galaxy.jpg'), (700, 500))
-
+print("Pull need")
 mixer.init()
 mixer.music.load('space.ogg')
 mixer.music.play()
