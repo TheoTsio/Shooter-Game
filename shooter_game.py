@@ -1,9 +1,7 @@
 from typing import Any
 from pygame import *
 from random import *
-print("Hello World")
-print("Hello World2")
-print("Hello world3")
+print("This is the new version")
 
 window = display.set_mode((700, 500))
 background = transform.scale(image.load('galaxy.jpg'), (700, 500))
@@ -40,7 +38,7 @@ class Rocket(GameSprite):
     def fire(self):
         bullet = Bullet('bullet.png', self.rect.x, 445, 7)
         bullets.add(bullet)
-
+print("Hello")
 class UFO(GameSprite):
     def update(self):
         global missed
@@ -57,9 +55,10 @@ class Bullet(GameSprite):
 
 font.init()
 font1 = font.SysFont('Arial', 40)
-lost = font1.render("YOU LOSE!!", True, (255, 0, 0))
-
+lost = font1.render("YOU LOSE!!!", True, (255, 0, 0))
+print('hello')
 score = 0 
+
 missed = 0
 font2 = font.SysFont('Arial', 40)
 clock = time.Clock()
