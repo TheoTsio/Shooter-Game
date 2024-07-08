@@ -9,7 +9,6 @@ print("Puxdfll need")
 mixer.init()
 mixer.music.load('space.ogg')
 mixer.music.play()
-print('hello')
 
 class GameSprite(sprite.Sprite):
     #class constructor
