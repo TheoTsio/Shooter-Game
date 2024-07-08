@@ -39,7 +39,7 @@ class Rocket(GameSprite):
     def fire(self):
         bullet = Bullet('bullet.png', self.rect.x, 445, 7)
         bullets.add(bullet)
-print("Hello World")
+print("Hello Woeld")
 class UFO(GameSprite):
     def update(self):
         global missed
