@@ -5,10 +5,11 @@ print("This is the new version")
 print('asd')
 window = display.set_mode((700, 500))
 background = transform.scale(image.load('galaxy.jpg'), (700, 500))
-print("Pull need")
+print("Puxdfll need")
 mixer.init()
 mixer.music.load('space.ogg')
 mixer.music.play()
+print('hello')
 
 class GameSprite(sprite.Sprite):
     #class constructor
@@ -38,7 +39,7 @@ class Rocket(GameSprite):
     def fire(self):
         bullet = Bullet('bullet.png', self.rect.x, 445, 7)
         bullets.add(bullet)
-print("Hello")
+print("Hello World")
 class UFO(GameSprite):
     def update(self):
         global missed
